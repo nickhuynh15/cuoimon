@@ -1,0 +1,283 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+/*reset css*/
+body{background: #3A8C68}
+#outer{
+	width: 1200px;
+	height: 4100px;
+	background: #3A8C68;
+	margin: 0 auto;
+}
+.header{
+	width: calc(100% - 40px);
+	height: 100px;
+/*	border: 1px solid black;*/
+	padding-left: 20px;
+	padding-right: 20px;
+	overflow: hidden;
+	background: white;
+}
+.logo{
+	width: 10%;
+	height: 100px;
+/*	background: green;*/
+	float:left;
+	text-align: center;
+	margin-top: 10px;
+}
+.logo img{height: 80%}
+.navigation{
+	width: 70%;
+	height: 100px;
+/*	background: green;*/
+	float: left;
+	text-align: center;
+}
+.navigation ul{
+	list-style: none;
+	height: 100px
+}
+.navigation ul li{
+	display: inline-block;
+	margin-right: 30px;
+	margin-top: 40px
+}
+.navigation ul li a{
+	color: green;
+	text-decoration: none;
+	font-size: 20
+}
+.map{
+/*	background: purple;*/
+	float: right;
+	width: 20%;
+	height: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 15px
+}
+.map a{
+	text-decoration: none;
+	color: green;
+	font-size: 18px;
+	font-style: oblique;
+}
+/*header*/
+.main{
+	width: 100%;
+	height: 3800px;
+	background: white;
+	
+}
+.box1{
+	width: calc(100% - 40px);
+	height: 1000px;
+/*	margin-top: 20px;*/
+	padding: 20px;
+	
+}
+.left{
+	width: 40%;
+	height: 1000px;
+	float: left
+}
+.left img{
+	height: 100%;
+}
+.right{
+	width: 52.5%;
+	height: 1000px;
+	float: right;
+	background: #3A8C68;
+}
+.right h2{
+	margin-top: 50px;
+	color: white;
+	padding: 0 20px
+}
+.right p{
+	margin-top: 15px;
+	color: white;
+	text-align: justify;
+	padding: 0 20px
+}
+.box2{
+	width: calc(100% - 40px);
+	height: 500px;
+	background: white;
+	padding: 0 20px;
+}
+.best{
+	width: 100%;
+	height: 500px;
+/*	background: #3A8C68;*/
+	text-align: center;
+}
+.best h2{
+	padding: 80px;
+	color: #3A8C68;
+	text-align: center
+}
+.best img{
+	margin:0 20px;
+	text-align: center
+}
+.best p{
+	width: 300px;
+	height: 30px;
+	font-size: 24px;
+	margin: 50px 430px;
+	text-align: center;
+	background: #3A8C68;
+	border-radius: 30px;
+	color: white
+}
+.box3{
+	width: calc(100% - 40px);
+	height: 1000px;
+	background: white;
+	text-align: center;
+	margin-top: 20px;
+	padding: 0 20px
+}
+.left1{
+	width: 50%;
+	height: 1000px;
+	background: white;
+	float: left
+}
+.left1 img{ 
+	height: 1000px;
+	width: 100%
+}
+.right1{
+	width: 50%;
+	height: 1000px;
+	background: #3A8C68;
+	float: right
+}
+.right1 h2{
+	color: white;
+	margin-top: 50px;
+}
+.right1 p{
+	color: white;
+	text-align: justify;
+	margin: auto 20px
+}
+.box4{
+	width: 100%;
+	height: 500px;
+	background-image:url("img/Starbucks Creative Studio on Instagram_ “Coffee plant pattern for @starbucks_j chilled cups designed and illustrated by @msjordankay 🌱”png");
+	margin-top: 20px;
+	padding: 100px 0;
+}
+.gen2{
+	width: 100%;
+	height: 500px;
+/*	background: red;*/
+	margin: 50px auto;
+	padding: 0 auto
+}
+.make-coffee1{
+	width: 20%;
+	height: 50%;
+	background: white;
+	float: left;
+	margin-left: 20px;
+	text-align: center
+}
+.make-coffee1 a img{
+	width: 100%;
+	height: 100%;
+}
+
+.make-coffee2{
+	width: 20%;
+	height: 50%;
+	background: blue;
+	float: left;
+	margin-left: 20px
+}
+.make-coffee2 a img{
+	width: 100%;
+	height: 100%
+}
+.make-coffee3{
+	width: 20%;
+	height: 50%;
+	background: green;
+	float: left;
+	margin-left: 20px
+}
+.make-coffee3 a img{
+	width: 100%;
+	height: 100%;
+}
+.starbucks{
+	width: 200px;
+	height: 100px;
+/*	background: #3A8C68;*/
+	float:right;
+	margin-right: 100px;
+	
+}
+.starbucks h1{
+	color:white;
+	text-align: center
+}
+.starbucks ul li{
+	color: white;
+	margin-top: 20px
+}
+.box5{
+	width: 100%;
+	height: 500px;
+	background: black;
+	margin: 20px auto;
+}
+.gen3{
+	width: 100%;
+	height: 500px;
+	background:black;
+}
+.gen3 a img{
+	height: 500px;
+/*	background: red*/
+	float:left;
+}
+.content{
+	width:calc(100% - 100px) ;
+	height: 500px;
+	background: black;
+	padding:0 100px;
+	
+}
+.gen3 h2{
+	color: white; text-align: center;padding: 220px 0
+}
+.footer{
+	width: 100%;
+	height: 100px;
+	background: white;
+	margin-top: 20px 
+	
+}
+.nav2 ul{
+	width: 60%;
+	height: 100px;
+	list-style: none;
+	
+}
+.nav2 ul li{
+	color:#3A8C68;
+	font-size: 20px;
+	display: inline-block;
+	text-align: center;
+	margin-left: 40px;
+	margin-top: 50px
+}
